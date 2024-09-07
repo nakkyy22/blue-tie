@@ -1,0 +1,328 @@
+.header{
+    // position: sticky;
+    // top: 15px;
+     z-index: 100;
+    background-color:$darkened-blu;
+    height: 150px;
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 3ms;
+    z-index: 100;
+    width: 100%;
+    height: 150px;
+    background-color:$darkened-blu;
+   
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+   
+    }
+    #header{
+      z-index: 100;
+      width: 100%;
+      height: 150px;
+      background-color:$darkened-blu;
+      position: fixed;
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+      top: 0;
+    left: 0;
+    right: 0;
+    }
+  //   #myHeader{
+  //     height: 19vh;
+  //     transition: background 0.5s ease-out;
+  //   }
+  //   #myHeader.blurred{
+  //     backdrop-filter: blur(5px);
+  //     color: #BF9767;
+
+  //   }
+  //   #imageContainer {
+  //     height: 35vh;
+  //     overflow: hidden;
+  // }
+  
+  // #scrollImage {
+      
+  //     height: auto;
+  //     transition: opacity 3ms ease;
+  // }
+  .logo{
+    //  position: absolute;
+    //  left: 48%;
+    //  transform: translate(-50%, -50%);
+    //  top: 0;
+    //  width: 60%;
+      img{
+        width: 55%;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    
+      }}
+  .navbar{
+      
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      color: #fffffff9;
+      padding: 0;
+      position: sticky;
+     left: 0px;
+      z-index: 5;
+     width: 100%;
+     font-family: 'BPG Mrgvlovani Caps 2010';
+
+      a{
+          text-decoration: none;
+          color: inherit;
+          position: relative;
+          top: 2px;
+      }
+   }
+   
+  .menu__line {
+    font-size: 19px;
+    text-decoration: none;
+    text-align: center;
+    background: url(../icons/svg-06.svg) no-repeat;
+    background-size: 70%;
+    background-position: center;
+    position: relative;
+  }
+   
+  
+  // .menu__line::before {
+  //   content: "";
+  //   background: url(../icons/svg-06.svg) no-repeat;
+  //   background-size: cover;
+  //   background-position: center;
+  //   width: 100%;
+  //   height: 100%;
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   opacity: 0;
+  //   transition: opacity 0.5s ease;
+  // }
+  
+  .menu__line:hover::before {
+      opacity: 1;
+  }
+   
+   .list{
+  margin: 4% 0;
+    list-style: none;
+    // display: grid;
+    // grid-template-columns: repeat(20, 1fr);
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 100%;
+    align-items: end;
+    position: relative;
+    // left: 50%;
+    // transform: translate(-50%);
+    left: 15px;
+   }
+//   .list_width{
+//     top: 4px;
+//     position: relative;
+// }
+   a{
+    h6{
+      top: 4px;
+      position: relative; 
+    }
+   }
+  // h6{
+  //   font-size: 24px;
+    
+  // }
+  .button_mini{
+      // grid-column: 21;
+      // grid-row: 1;
+      position: relative;
+       top: -2px;
+      width: 19%;
+      left: 28px;
+            z-index: 15;
+  }
+      .menu{
+          margin:-15px auto;
+          text-align: center;
+          position: relative;
+          // left: 50%;
+          // transform: translateX(-50%);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 77%;
+      
+          
+      }
+      #switch-lang{
+          height: 30px;
+          width: 30px;
+          color: #ffffff;
+          border: solid  #e3dbb7 2px;
+          a{
+            top: -1px;
+            left: -1px;
+          }
+      }
+      .menu_link{
+          margin-top: 3px;
+          
+      }
+      .hamburger {
+          display: none;
+          
+        }
+        // .promo__img{
+        //     // background:url(../img/photo-02.png) center center/cover no-repeat ;
+        //     width: 100%;
+        //     height: 660px;
+        // }
+        .menu_item{
+          width: 100%;
+          height: 33px;
+          position: relative;
+          top: -17%;
+        }
+        .menu_item_home{
+            grid-column: 2;
+            position: relative;
+            z-index: 15;
+           }
+           .menu_item_about{
+            grid-column: 4;
+            position: relative;
+            z-index: 15;
+           }
+           .menu_item_servise{
+            grid-column: 6;
+            position: relative;
+            z-index: 15;
+           }
+           .menu_item_product{
+            grid-column: 14;
+            position: relative;
+            z-index: 15;
+            
+           }
+           .menu_item_footer{
+            grid-column: 18;
+            position: relative;
+            z-index: 15;
+           }
+           .menu_item_news{
+            grid-column: 16;
+            position: relative;
+            z-index: 15;
+            
+           }
+          .logo_smol{
+            display: none;
+          }
+
+
+
+         
+          
+          .active {
+            top: -100%;
+          }
+       
+          // popup
+          
+               #popup{
+                display: none;
+               }
+        .overlay {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-color: rgba(0, 0, 0, 0.9);
+          z-index: 999;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+
+      /* Стили для самого всплывающего окна */
+      .popup {
+          background-color: #24356E;
+          padding: 20px;
+          border-radius: 10px;
+          text-align: center;
+          width: 38%;
+          height: 400px;
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+          position: relative;
+      }
+
+      /* Стили для текста и кнопок */
+      .popup h2 {
+          margin: 0;
+          font-size: 24px;
+          color: #fff;
+      }
+
+      .popup h3 {
+          font-size: 20px;
+          color: #fff;
+          margin: 10px 0;
+      }
+
+      /* .popup button {
+          padding: 10px 20px;
+          margin: 10px;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+      } */
+
+      .popup .yes-btn {
+          /* background-color: #4CAF50; */
+          color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        cursor: pointer;
+      }
+
+      .popup .no-btn {
+          /* background-color: #f44336; */
+          color: #fff;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%,-50%);
+          cursor: pointer;
+      }
+      .popup__line{
+          width: 50%;
+          
+      }
+      .popup img{
+          width: 7%;
+      }
+  .popup_itom{
+      display: flex;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      width: 100%;
+  }

@@ -1,0 +1,1104 @@
+@media (max-width: 1640px) {
+    #switch-lang {
+        height: 30px;
+    }
+    #header{
+        z-index: 100;
+        width: 100%;
+        height: 130px;
+    }
+    // .list{
+    //     width: 125%;
+    // }
+    .social{
+        left: 0;
+    }
+    .bottom__contact{
+        left: 0;
+    }
+    .menu__line{
+        background-size:70%;
+    }
+    .navbar a{
+        top: 4px;
+    }
+    .new__Product_button{
+     width: 17%;
+    }
+    // .new__Product{
+    //     width: 45%;
+    // }
+}
+@media (max-width: 1024px){
+    .carousel .slick-next{
+        right: -29px;
+        left: auto;
+        width: 2%;
+}
+.menu__line{
+    background-size:100%;
+}
+  .new__Product{
+    width: 70%;}
+    .about_us__text{
+        width: 55%;
+    }
+    .about_us__imfo{
+        left: -5%;
+    }
+   
+    .news__decr {
+        p{
+            width: 71%;
+        }
+    }
+    .promo__img{
+        clip-path: polygon(0 0, 100% 0, 100% 92%, 59% 92%, 50% 100%, 41% 92%, 0 92%);
+    }
+    }
+
+
+
+@media (max-width: 991px) {
+    .header {
+        position: fixed;
+        border-radius: 0%;
+    }
+
+    .hamburger {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 120%;
+        transform: translateY(-50%);
+        width: 26px;
+        height: 12px;
+        padding: 3%;
+        width: 10%;
+    }
+
+    .promo {
+        width: 100%;
+    }
+
+    .about__centr {
+        left: 0;
+    }
+
+    .new__img {
+
+        background-size: 158%;
+        top: 0;
+
+    }
+    .menu {
+     margin-top: 0px;
+    }
+
+    .new__title {
+        font-size: 19px;
+        width: 299px;
+        position: relative;
+        left: 27px;
+        top: 22px;
+    }
+
+    .navbar {
+        margin: 15px 32px auto;
+        width: 915px;
+        border-radius: 0%;
+    }
+
+    .social {
+        left: 0%;
+    }
+
+    .menu {
+        position: fixed;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        left: -100%;
+        width: 50%;
+        height: 100vh;
+        padding: 20px 15px;
+        // background-color: rgba(255, 255, 255, 0.8);
+        transition: 0.6s all;
+        // font-family: 'BPG Mrgvlovani Caps 2010';
+        background: $darkened-blu;
+    }
+
+    .menu_active {
+        left: 0%;
+    }
+
+    .menu_item {
+        padding-right: 0;
+        border: none;
+        margin: 10px auto;
+        // height: 23%;
+        width: 22%;
+    }
+    .button_mini{
+        width: 50%;
+    }
+
+    .menu_link {
+        font-size: 20px;
+    }
+
+    .hamburger {
+        // display: block;
+        // position: absolute;
+        // right: 78px;
+        // top: 140%;
+        // transform: translateY(-50%);
+        // width: 26px;
+        // height: 47px;
+        // padding: 3%;
+        // width: 10%;
+        
+            display: block;
+            position: absolute;
+            left: 80%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            height: 100px;
+            width: 50%;
+        
+    }
+
+    .hamburger span {
+        display: block;
+        height: 5px;
+        width: 6%;
+        // border-radius: 100%;
+        background-color: #FAF8F4;
+        margin-bottom: 5px;
+        transition: 0.5s all;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .span__wines{
+        background-color:#000!important;
+    }
+
+    .hamburger_active span {
+        margin-bottom: -9px;
+        width: 15px;
+    }
+
+    .hamburger_active span:nth-child(1) {
+        transform: translateY(4px) rotate(-45deg);
+        width: 15px;
+        border-radius: 0%;
+        height: 5px;
+    }
+
+    .hamburger_active span:nth-child(2) {
+        display: none;
+    }
+
+    .hamburger_active span:nth-child(3) {
+        transform: translateY(8px) rotate(45deg);
+        border-radius: 0%;
+        height: 5px;
+    }
+
+    .xs-hidden {
+        display: none;
+    }
+
+    .xs-visible {
+        display: block;
+    }
+
+    .logo_smol {
+        display: block;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .header_logo_smol {
+        width: 30%;
+        position: relative;
+        // left: 25%;
+        z-index: 5;
+    }
+
+    .list {
+        display: block;
+        top: -15px;
+    }
+
+    #myHeader.blurred {
+        backdrop-filter: blur(0px);
+    }
+
+
+    .new__wines_descr {
+        height: 365px;
+    }
+    .new__Product {
+        h4{
+            left: 11%;
+        }
+    }
+
+    .about__descr {
+        width: 50%;
+        transform: translate(2%, 18px);
+        text-align: left;
+        font-size: 15px;
+}
+.about_us__text{
+    width: 68%;
+}
+
+.wine__title{
+    top: -35px;
+    font-size: 15px;
+ }
+ .wine__line{
+     width: 54%;
+     left: 50px;
+ }
+ .wine__img{
+     width: 80%;
+     height: 300px;
+ }
+ .button_mini {
+    left: 181px;
+ }
+ .promo__img {
+    clip-path: polygon(0 0, 100% 0, 100% 77%, 64% 77%, 50% 100%, 33% 77%, 0 77%);
+ }
+ .news__decr {
+    p{
+        font-size: 13px;
+    }
+ }
+ .bottom__contac{
+     width: 50%;
+     left: 0px;
+ }
+ .bottom__maps {
+    width: 145%;
+ }
+ .popup{
+    width: 60%;
+    // img{
+    //     position: relative;
+    //     left: 15%;
+    // }
+ }
+ .popup__line{
+    width: 33%;
+    // left: 15%;
+    position: relative;
+ }
+ .popup_itom{
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+ }
+}
+
+@media (max-width: 850px){
+    .hamburger{
+        top: 37%;
+    }
+    .promo__img{
+        height: 381px;
+    }
+    .grape__item_7{
+        display: none;
+    }
+    .new__Product{
+        width: 77%;
+        position: relative;
+        left: 5%;
+    }
+    .new__title{
+        font-size: 17px;
+    }
+    .about__title{
+        transform: translate(0%,15px);
+    }
+    .about__descr{
+        transform: translate(0%, 18px);
+    }
+    .about__img{
+        transform: translate(20%,0);
+    }
+
+   
+    .a{
+    font-size: 16px;
+    }
+    .about__img img {
+        width: 100%;
+    }
+    .about_us__info_titile {
+        width: 42%;
+    }
+    .wine__img img{
+        transform: translate(0%,0);
+    }
+    .wine-block{
+        transform: translate(-70%);
+    }
+    .wine-block .wine-info p {
+        width: 158%;
+    }
+    .wine-block_rights{
+        img{
+            left: 29%;
+        }
+    }
+    // a h6{
+    //     color: #000;
+
+    // }
+    
+    .wines__galere_itom_titile{
+        top: -163px;
+        left: -45px;
+    }
+    .bottom__maps {
+        width: 131%;
+     }
+    
+}
+
+@media (max-width: 769px) {
+    .navbar {
+        width: 674px;
+    }
+
+    .about__descr {
+        transform: translate(4%, 18px);
+    }
+
+    .about__img img {
+        width: 100%;
+
+    }
+
+    .wine__line {
+        left: 19%;
+    }
+
+    .about__img {
+        height: max-content;
+    }
+
+    .about__img img {
+        margin-top: 20px;
+        height: 94%;
+    }
+
+    .new__Product{
+        left: 0;
+        width: 92%;
+    }
+    .news__decr{
+        p{
+            font-size: 11px;
+        }
+    }
+    .about__descr{
+        a{
+            position: relative;
+            left: -3%;
+        }
+    }
+    .about_us__imfo{
+        margin: 0;
+    }
+    .img__left {
+    //  transform: translate(-4%, -50%); 
+    // top: 11%;
+    transform: translate(0%, 0);
+    
+    }
+
+ 
+    .up {
+        display: block;
+        position: relative;
+       
+        top: 3%;
+        left: 0;
+    }
+    .left_1 {
+        // transform: translate(31px, 0);
+        // top: -1%;
+        // transform: translate(0%, 0);
+        top: 26%;
+    }
+
+  
+    .left_4 {
+        // top: -1%;
+        top: 26%;
+    }
+
+
+
+    // .wine__title p {
+    //     left: 21%;
+    // }
+
+    .footer {
+        width: 100%;
+    }
+
+    .bottom__contact {
+        margin-left: 67px;
+    }
+
+   
+      
+    .social {
+        left: 0%;
+    }
+
+    .slick--next,
+    .slick--prev {
+
+        width: 78px;
+    }
+}
+
+@media (max-width: 476px) {
+    .a {
+        font-size: 11px;
+        width: 227px;
+    }
+
+    .about__centr {
+        left: 0;
+    }
+    .about__descr{
+        text-align: center;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,0%);
+        font-size: 15px;
+        a{
+            font-size: 15px;
+        }
+    }
+    .about__seemore{
+        background-size: 22%;
+    }
+    .about__img{
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50px);
+    }
+    .navbar {
+        width: 125%;
+        color: #000;
+    }
+
+    .hamburger {
+        left: 50%;
+        right: 0;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        width: 100%;
+    }
+
+    .header_logo_smol {
+        left: -27%;
+    }
+
+    .list {
+        margin-left: -28px;
+    }
+
+    .promo__img {
+        height: 41vh;
+    }
+
+    .about__centr {
+        position: relative;
+        left: 0px;
+    }
+
+    .award {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 0;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .social {
+        left: 70%;
+        position: absolute;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        left: 18%;
+        top: 134%;
+        left: 75%;
+        top: 28%;
+
+    }
+    .new__Product h4{
+        font-size: 19px;
+    }
+    .new__Product{
+        font-size: 15px;
+    }
+    .new__Product_button{
+        width: 24%;
+    }
+
+    .bottom__contact {
+        margin-left: 6px;
+    }
+
+    .bottom__contact img {
+        width: 30px;
+    }
+
+    .social__icons {
+        width: 30px;
+    }
+
+    .wine__title {
+        font-size: 15px;
+        top: -28px;
+        text-align: center;
+    
+    }
+    .wine{
+        transform: translate(0, -139px);
+    }
+    .wines__galere_itom{
+        justify-content: flex-start;
+    }
+    .wines__galere_itom_titile{
+        font-size: 15px;
+        gap: 0px;
+        top: -64px;
+        left: -22%;
+        span{
+            font-size: 9px;
+        }
+        &_info{
+          position: relative;
+          top: -9px;
+        }
+    }
+    .line_wine{
+        left: 36%;
+        top: -130px;
+    }
+    .wine__galereya_descr {
+        left: 36%;
+        top: -124px;
+        font-size: 9px;
+    }
+   
+
+
+    :lang(ge) .grape__img_raite {
+         transform: translate(0px, 0px); 
+        width: 106%;
+    }
+    :lang(ge) .left_2 {
+         left: 0%; 
+        width: 110%;
+    }
+    :lang(ge) 
+    .grape__img__2{
+        width: 100%;
+    }
+    .left_1 {
+        left: 50%; 
+    //    width: 110%;
+   }
+
+    .wines {
+        padding: 0;
+    }
+
+    .wine__line {
+        width: 55%;
+        left: 14px;
+        border-bottom: 3px solid #bf9767;
+    }
+   
+
+    .wine__title p {
+        left: 0%;
+    }
+
+    .carousel {
+        background: url(../img/12.png) 50% 50% no-repeat;
+        background-size: cover;
+        width: 100%;
+        display: inline-flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+
+   
+
+    .grapes__item {
+        display: flex;
+        transform: translate(0, 0);
+        height: 520px;
+        text-align: center; 
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: stretch;
+        justify-content: center;
+        flex-direction: row;
+    
+    }
+
+    .grape {
+        
+             position: inherit;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            height: 28%;
+
+        img {
+            width: 50%;
+        }
+    }
+
+    .grape__descr {
+        font-size: 15px;
+        width: 100%;
+        display: flex;
+        position: relative;
+        left: 0px;
+        top: 10%;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+        align-items: center;
+    
+    }
+
+
+    .grape__item_1 {  
+      
+        transform: translate(0, 0);
+    }
+
+    .up {
+        display: block;
+        position: inherit;
+       
+        top: 3%;
+        left: 0;
+    }
+
+    .grape__title {
+       
+        margin-top: 0;
+        left: 0;
+        top: 0;
+        font-size: 12px;
+        position: relative;
+    }
+    .about__img {
+        height: max-content;
+    }
+
+    .about__img img {
+        margin-top: 20px;
+        height: 94%;
+    }
+
+    .grape__img_up {
+       
+        transform: translate(0%, 0%);
+        width: 108%;
+       
+        top: 0%;
+        display: block;
+        
+    }
+    .grapes__descr{
+        padding-top: 40px;
+        margin-bottom:40px;
+    }
+
+    .grape__centr {
+
+       position: inherit;
+        left: 0px;
+        transform: translate(0,0%);
+        top: -1%;
+    }
+
+    .grape__descr__left {
+        width: 100%;
+        // position: relative;
+       position: inherit;
+        // left: -7px;
+        // top: -12%;
+        margin-bottom: 11px;
+    }
+
+    .grape__descr__up {
+    //    top: -21%;
+       top: 10%;
+    }
+
+    .grape__img_left {
+        // transform: translate(-9%,-50%);
+        transform: translate(0, 0);
+        grid-column: 1;
+        width: 100%;
+        top: 26px;
+        // left: -8%;
+    }
+
+    .grape__img_raite {
+        position: initial;
+        transform: translate(0,0);
+        width: 100%;
+    }
+
+    .grape__title__left {
+        // position: relative;
+        position: inherit;
+        top: 118px;
+        left: 25px;
+    }
+
+    .grape__title_up {
+        // position: relative;
+        position: inherit;
+        left: 1px;
+    }
+
+    .grape__img__2 {
+        width: 109%;
+
+        &_up {
+            // transform: translate(-10%, -50%);
+            // top: -4%;
+            transform: translate(0%, 0);
+            top: 0%;
+
+            &_2 {
+                // transform: translate(-8%, -50%);
+                // top: -5%;
+                transform: translate(0%, 0);
+               top: 0;
+
+            }
+        }
+
+        &_left {
+            // transform: translate(21px, 65px);
+            // top: -7%;
+            transform: translate(0%, 0);
+            // top: 0%;
+            top: 26px;
+            left: 0%;
+        }
+
+        &_raite {
+            // transform: translate(90px, -43px);
+            // transform: translate(-3%, -50%);
+            // top: 15%;
+            transform: translate(0%, 0);
+            top: 6%;
+            &_2{
+                // transform: translate(-3%, -50%);
+                // top: 18%;
+                transform: translate(0%, 0);
+                top: 6%;
+            }
+    
+            
+        }
+
+        &_2 {
+            // transform: translate(-20%, -50%); 
+            // top: 11%;
+            transform: translate(0%, 0);
+            top: 26px;
+            left: -8%;
+
+        }
+
+    }
+
+    .img__left {
+    //  transform: translate(-4%, -50%); 
+    // top: 11%;
+    transform: translate(0%, 0);
+    
+    }
+
+    .up__height {
+        height: 209px;
+    }
+
+    .left_1 {
+        // transform: translate(31px, 0);
+        // top: -1%;
+        // transform: translate(0%, 0);
+        top: 26%;
+    }
+
+  
+    .left_4 {
+        // top: -1%;
+        top: 26%;
+    }
+
+  
+
+    .img {
+        width: 100%;
+        height: 19em;
+        position: relative;
+        background: url(../img/DSCF1365.jpg) 50% 86% no-repeat;
+        background-size: 256%;
+    }
+
+    .img_1 {
+        width: 100%;
+        height: 19em;
+        position: relative;
+        background: url(../img/7512.jpg) 50% 86% no-repeat;
+        background-size: 256%;
+    }
+
+    .img_2 {
+        width: 100%;
+        height: 19em;
+        position: relative;
+        background: url(../img/7645.jpg) 50% 86% no-repeat;
+        background-size: 256%;
+    }
+
+    .award__img {
+        img {
+            width: 50%;
+        }
+    }
+
+    .wine__descr {
+        padding-top: 0px;
+        top: -46px;
+    }
+    .carousel_3{
+        padding: 1px 0;
+    }
+
+    .new__img,
+    .new__img_1,
+    .new__img_2 {
+
+        background-size: 168%;
+        position: relative;
+        height: 625px;
+        top: -143px;
+        color: antiquewhite;
+    }
+
+    .new__title {
+        font-size: 8px;
+        width: 118px;
+        position: relative;
+        left: 22px;
+        top: 10px;
+    }
+
+    .new__wines_title {
+        left: 25px;
+    }
+
+    .new__img {
+        // background: url(../img/7684.jpg) 56% 38% no-repeat;
+        // background-size:0;
+        top: 0;
+        left: 0;
+        height: 100%;
+    }
+
+    .new__img_1 {
+        // background: url(../img/7869.jpg) 26% 41% no-repeat;
+        // background-size: 246%;
+        top: -24px;
+        left: 0;
+        height: 111%;
+
+    }
+
+    .new__img_2 {
+      
+        background-size: 225%;
+        top: -103px;
+        left: 0;
+        height: 167%;
+    }
+
+    .new__wines_descr {
+        height: 210px;
+    }
+
+    .wine__item {
+        position: relative;
+        left: -1px;
+    
+    }
+    .wine__img{
+      
+            width: 88%; 
+            height: 199; 
+            display: block; 
+        
+    }
+
+    .image-container {
+        height: 0px;
+    }
+
+    .about__title {
+        transform: translate(0%, 15px);
+        text-align: center;
+        padding-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .new__descr {
+        text-align: center;
+        padding-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .Gallery__dscr {
+        text-align: center;
+        margin-bottom: 40px;
+        margin-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .award__img__smol img {
+        width: 123%;
+    }
+    .grape{
+        position: relative;
+        display: flex;
+        margin: 0;
+     
+        // &__descr{
+        //     position: relative;
+        //     // top: 50%;
+        //     left: 50%;
+        //     transform: translate(-50%,-50%);
+        // }
+        &__img{
+            position: relative;
+            // top: 50%;
+            // left: 50%;
+            // transform: translate(-36%,-50%);
+            // width: 70%;
+            &__2{
+              width: 100%;
+            }
+            img{
+                position: relative;
+                // top: 50%;
+                left: 50%;
+                transform: translate(-50%,-28%);
+                width: 40%;
+            }
+        }
+    }
+    .gallery {
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .gallery__itom{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .bottom__maps {
+        left: -15px;
+}
+.bottom__telephone {
+    left: -39px;
+}
+.bottom__email {
+    left: -27px;
+}
+}
+
+@media (max-width: 361px) {
+    .new__img_1 {
+        height: 124%;
+
+    }
+
+    .new__img_2 {
+        top: -103px;
+        height: 206%;
+    }
+
+    .new__wines_descr {
+        height: 191px;
+    }
+    .about__img {
+        height: max-content;
+    }
+    .about__img img {
+        margin-top: 33px;
+        height: 73%;
+        width: 100%;
+    }
+
+    .header_logo_smol {
+        position: relative;
+        left: 8%;
+    }
+
+    .up__height {
+        height: 28%;
+    }
+    .wine_info{
+        position: relative;
+        top: -9px;
+      }
+      .wine__title{
+        left: -76%;
+      }
+
+}

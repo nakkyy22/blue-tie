@@ -1,0 +1,148 @@
+.footer {
+  // background: url(../img/FT.png) 49% 27% no-repeat;
+  background-size: 100%;
+  background-color: $darkened-blu;
+  position: relative;
+}
+
+.bottom {
+  //    background-color: #FAF8F4;
+  // display: grid;
+  // grid-template-columns: 1fr 1fr;
+  // grid-template-rows: 219px 88px 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+}
+
+.bottom__contact {
+  // grid-column: 1;
+  // display: grid;
+  // grid-template-rows: repeat(6, 1fr);
+  // margin-left: -40px;
+  // position: relative;
+  // top: 70px;
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    width: 55%;
+    position: relative;
+    left: -20%;
+    flex-direction: column;
+    align-content: center;
+
+  img {
+    width: 41px;
+    height: auto;
+    padding-right: 10px;
+  }
+
+  p {
+    display: contents;
+  }
+
+}
+
+.bottom__Privacy {
+  color: #131212;
+  grid-row: 6;
+  // margin-left: 32px;
+}
+
+.bottom__telephone {
+  grid-column: 1;
+  grid-row: 2;
+  // left: -77px;
+  p{
+    color: $light-beige;
+  }
+}
+
+.bottom__telephone_2 {
+  grid-column: 1;
+  grid-row: 4;
+}
+
+.bottom__email {
+  grid-row: 3;
+//  left:  -50px;
+
+ p{
+  color: $light-beige;
+ }
+}
+
+.bottom__maps {
+  width: 103%;
+  p{
+    color: $light-beige;
+  }
+}
+
+.social {
+  // display: grid;
+  // grid-row: 1;
+  // grid-column: 2;
+  // //  margin-top: 50px;
+  // position: relative;
+  // left: 83%;
+  // top: 48%;
+  // color: #000;
+  // width: 1%;
+  // // margin-left: 358px;
+  // // margin-right: -190px;
+  // grid-template-columns: 1fr;
+  // grid-template-rows: 1fr;
+  // height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 25%;
+  p {
+    margin-top: 15px;
+    text-align: center;
+    color: #000;
+  }
+
+  &__icon {
+    grid-column: 1/4;
+    height: 101px;
+    margin-top: 2px;
+    width: 155px;
+    position: relative;
+    left: 8px;
+    top: -15px;
+  }
+
+  &__icons {
+    width: 41px;
+    height: auto;
+    opacity: #fff;
+  }
+}
+
+.a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+  font-family: "BPG Arial";
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+
+}
+
+.centr {
+  margin-left: 0;
+}
+
+#mep{
+  width: 100%;
+}

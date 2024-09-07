@@ -1,0 +1,307 @@
+.wines {
+    width: 100%;
+    // background: #faf8f4;
+    // padding-top: 169px;
+}
+
+.carousel__inner {
+    position: relative;
+    left: -12px;
+
+}
+
+// .wine_img_beck{
+//     background:url(../img/12.png)  4% 27% no-repeat ;
+//     background-size: cover;
+//     width: 100%;
+//     // height: 1500px;
+//     display: inline-flex;
+//     align-items: center;
+//     flex-wrap: wrap;
+//     justify-content: flex-end;
+// }
+.wine__img {
+    background: url(../../images/Input-16.webp)  no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    width: 70%;
+    height: 364px;
+    img {
+        width: 55%;
+        margin: auto 0;
+        display: block;
+        position: relative;
+        top: 20px;
+        // left: -8px;
+    }
+}
+
+.wine__descr {
+    text-align: center;
+    padding-bottom: 60px;
+    margin-bottom: 60px;
+    // position: relative;
+    // padding-top: 172px;
+    // top: -177px;
+    // left: -25px;
+}
+
+.wine__title {
+    text-align: center;
+    display: inline;
+    color: $darkened-blu;
+    position: relative;
+    top: -40px;
+    font-family: 'Everything';
+    text-transform: uppercase;
+    font-size: 22px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    p {
+        width: 300px;
+        position: relative;
+        // transform: translateY(16%);
+        // left: 27%;
+        text-transform: capitalize;
+        // border: 2px solid;
+        color: #000;
+    }
+}
+// .wine__title{
+//     font-size: 17px;
+// }
+
+.wine__line {
+   
+    width: 70%;
+    position: absolute;
+    left: 50px;
+    border-bottom: 29px solid white;
+    border-radius: 256px;
+    height: 1%;
+    top: 284px;
+    clip-path: polygon(10% 0%, 90% 0%, 100% 50%, 90% 100%, 10% 100%, 0% 50%);
+    z-index: -214;
+}
+    .wine__line::before{
+        content: ''; /* Вывод тени */
+        position: absolute; /* Абсолютное позиционирование */
+        bottom: 15px; /* Положение снизу */
+        left: 10px; /* Положение слева */
+        width: 50%; /* Ширина тени */
+        max-width: 300px; /* Максимальная ширина тени */
+        height: 15px; /* Высота тени */
+        box-shadow: 0 15px 10px rgba(0,0,0,0.5); /* Тень */
+        transform: rotate(-3deg); /* Поворот */
+        z-index: -1; /* Опускаем ниже блока */
+    
+    }
+
+
+
+.line_wine {
+    width: 50%;
+    border-bottom: 4px solid #bf9767;
+    border-radius: 246px;
+    height: 1%;
+    position: relative;
+    left: 27%;
+    top: -236px;
+}
+
+.wine__galereya_descr {
+    position: relative;
+    left: 27%;
+    top: -229px;
+}
+
+.wine {
+    text-align: -webkit-center;
+    position: relative;
+    left: 12px;
+}
+
+.wine__item {
+    position: relative;
+  
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+   
+}
+
+.itoms {
+    display: grid;
+  
+}
+
+
+
+// .wine__text {
+//     display: none;
+
+// }
+
+// .active .wine__text {
+//     display: block;
+//     position: absolute;
+//     // position: absolute;
+//     // left: 50%;
+//     // top: 50%;
+//     transform: translate(50%, 50%);
+//     background-color: #faf8f4;
+//     left: 7%;
+//     width: 100%;
+//     z-index: 15;
+//     top: -146%;
+//     width: 154%;
+//     height: 300%;
+// }
+
+// :lang(ge) {
+//     .wine__title p {
+//         width: 100%;
+//         position: relative;
+//         text-transform: capitalize;
+//         color: #000;
+//         top: 13%;
+//         // left: 50%;
+//         // transform: translate(-50%,-50%);
+//     }
+//     .wine__title {
+       
+//         font-family: 'BPG Mrgvlovani Caps';
+      
+// }}
+
+// .wines__galere_itoms {
+//     display: flex;
+//     align-content: center;
+//     align-items: center;
+//     justify-content: flex-start;
+//     flex-wrap: wrap;
+   
+// }
+// .wines__galere_img{
+//     display: flex;
+//     align-content: center;
+//     align-items: center;
+//     justify-content: flex-start;
+//     flex-wrap: wrap;
+// }
+// #Tsolikouri{
+//     margin-top: 129px;
+// }
+
+// .wines__galere_itom {
+//     display: flex;
+//     align-content: center;
+//     align-items: center;
+//     justify-content: center;
+//     flex-wrap: nowrap;
+
+//     img {
+//         width: 50%;
+//     }
+// }
+
+// .wines__galere_itom_titile {
+//     display: inline-block;
+//     color: #bf9767;
+//     position: relative;
+//     top: -116px;
+//     left: -58px;
+//     font-family: "Everything";
+//     // text-transform: uppercase;
+//     font-size: 19px;
+//     // gap: 20px;
+//     justify-content: center;
+//     align-items: center;
+//     align-content: center;
+//     justify-items: center;
+//     span{
+//         font-size: 18px;
+//         color: #000;
+//         display: block;
+//     }
+//     .wines__galere_itom_span{
+//         font-size: 22px ;
+//         color: #bf9767;
+//         position: relative;
+//         // left: 24%;
+
+//     }
+
+// }
+// .wine_info{
+//     font-family:"BPG Dejavu sans"
+// }
+.Wines__title{
+    margin: 40px;
+    padding: 40px;
+    // left: -5%;
+    position: relative;
+
+}
+.wine-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    transform: translate(-57%);
+    position: relative;
+    left: 50%;
+    width: 60%;
+    img {
+        width: 30%;
+        height: auto;
+    }
+
+    .wine-info {
+        text-align: left;
+        // margin: 0 20%;
+        padding: 10px;
+        margin-top: -13%;
+        // width: 200px;
+
+        h2 {
+            margin: 0;
+            font-size: 18px;
+            padding:10px 0;
+        }
+
+        p {
+            font-size: 18px;
+            width: 99%;
+        }
+    }
+  
+
+}
+.wine-info_left{
+
+    margin-right: 20%;
+   }
+   .wine-info_rights{
+    margin-left: 20%;
+   }
+.wine-block_rights{
+position: relative;
+left: 55%;
+img{
+    position: relative;
+    left: 0%;
+}
+}
+.wine-block_left{
+position: relative;
+left: 64%;
+}

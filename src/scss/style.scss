@@ -1,0 +1,117 @@
+$darkened-blu: #24356E;
+$light-beige: #FFFEF8;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+ 
+  font-size: 16px; /* Базовый размер шрифта для всех элементов */
+}
+
+body {
+  font-family: "BPG Dejavu sans", Arial, sans-serif;
+  color: #474442;
+  line-height: 1.6;
+  height: 100%;
+  width: 100%;
+  
+}
+main{
+    background: url(../images/Background.webp)  no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-color: #FFFEF8;
+}
+@font-face {
+    font-family: 'Regular';
+    src: url(../fonts/Bilargy\ Regular.otf);
+}
+
+@font-face {
+    font-family: 'source-serif-pro';
+    src: url(../fonts/source-serif-pro.regular.otf);
+
+}
+
+@font-face {
+    font-family: 'BPG Dejavu sans';
+    src: url(../fonts/bpg_dejavu_sans.ttf);
+}
+
+@font-face {
+    font-family: 'Nigelina-Regular';
+    src: url(../fonts/Nigelina-Regular_400.woff)  format('woff');
+}
+
+@font-face {
+    font-family: 'GettingEverything';
+    src: url(../fonts/GettingEverything.otf);
+}
+
+a {
+    color: $darkened-blu;
+    text-decoration: none;
+    text-align: -webkit-center;
+
+}
+
+a:host {
+    color: $darkened-blu;
+}
+
+
+    h2 ,h5 {
+        // font-family: 'Ana-Kalandadze';
+        font-family: 'source-serif-pro';
+        // font-size: calc(3rem + .9vw);
+        color: $darkened-blu;
+        text-transform: uppercase;
+        font-size: 50px;
+        // color: $darkened-blu
+
+    }
+
+    h5 {
+        // font-family: 'Nigelina-Regular';
+        font-family: "source-serif-pro";
+        text-transform: uppercase;
+        font-size: 19px;
+    }
+
+    // h6,h5{
+    //     font-family: 'BPG Mrgvlovani Caps';
+    //     font-size: 24px;
+
+    // }
+    h6 {
+        font-size: clamp(15px, 1vw, 19px);
+        // font-family: 'Nigelina-Regular';
+        font-family: "source-serif-pro";
+        text-transform: uppercase;
+
+    }
+
+    p {
+        font-family: 'source-serif-pro';
+        color: $darkened-blu;
+    }
+
+
+// @import 'colors/color';
+@import 'block/header';
+@import 'block/about';
+@import 'block/grapes';
+@import 'block/wine';
+@import 'block/slik';
+@import 'block/carousel';
+@import 'block/award';
+@import 'block/footer';
+@import 'block/new';
+@import 'block/gallery';
+@import 'block/media';
