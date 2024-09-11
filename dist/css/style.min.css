@@ -949,13 +949,14 @@ a h6 {
   justify-content: space-between;
   margin: 20px;
   padding: 20px;
-  transform: translate(-57%);
+  transform: translate(-68%);
   position: relative;
   left: 50%;
-  width: 60%;
+  width: 100%;
 }
 .wine-block img {
   width: 30%;
+  width: 19%;
   height: auto;
 }
 .wine-block .wine-info {
@@ -992,7 +993,7 @@ a h6 {
 
 .wine-block_left {
   position: relative;
-  left: 64%;
+  left: 73%;
 }
 
 .carousel {
@@ -1655,7 +1656,7 @@ a h6 {
   position: relative;
 }
 
-.slider__item {
+.slider__item, .slider__item_1, .slider__item_2 {
   position: relative;
   background-size: cover;
   background-position: center;
@@ -1667,6 +1668,36 @@ a h6 {
 }
 
 .slider__item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../../images/biljana-martinic-IGJ_21drT3g-unsplash.webp) center center/cover no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  filter: brightness(0.5); /* Затемнение картинки для лучшей читаемости текста */
+  object-fit: cover;
+}
+
+.slider__item_1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../../images/biljana-martinic-IGJ_21drT3g-unsplash.webp) center center/cover no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  filter: brightness(0.5); /* Затемнение картинки для лучшей читаемости текста */
+  object-fit: cover;
+}
+
+.slider__item_2::before {
   content: "";
   position: absolute;
   top: 0;
@@ -1979,6 +2010,23 @@ a h6 {
   top: 50%;
 }
 
+@media (max-width: 991px) {
+  .slider__item {
+    clip-path: polygon(0 0, 100% 0, 100% 73%, 81% 73%, 50% 78%, 19% 73%, 0 73%);
+  }
+}
+/* Адаптация для экрана до 768px */
+@media (max-width: 768px) {
+  .slider__item {
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 82% 70%, 50% 75%, 18% 70%, 0 70%);
+  }
+}
+/* Адаптация для экрана до 425px */
+@media (max-width: 425px) {
+  .slider__item {
+    clip-path: polygon(0 0, 100% 0, 100% 65%, 83% 65%, 50% 70%, 17% 65%, 0 65%);
+  }
+}
 @media (max-width: 1640px) {
   #switch-lang {
     height: 30px;
@@ -2003,6 +2051,9 @@ a h6 {
   .new__Product_button {
     width: 17%;
   }
+  .new__Product {
+    left: -10%;
+  }
 }
 @media (max-width: 1024px) {
   .carousel .slick-next {
@@ -2026,7 +2077,8 @@ a h6 {
     width: 71%;
   }
   .promo__img {
-    clip-path: polygon(0 0, 100% 0, 100% 92%, 59% 92%, 50% 100%, 41% 92%, 0 92%);
+    clip-path: polygon(0 0, 100% 0, 100% 92%, 60% 92%, 50% 100%, 40% 92%, 0 92%);
+    height: 13em;
   }
 }
 @media (max-width: 991px) {
@@ -2197,9 +2249,6 @@ a h6 {
   .button_mini {
     left: 181px;
   }
-  .promo__img {
-    clip-path: polygon(0 0, 100% 0, 100% 77%, 64% 77%, 50% 100%, 33% 77%, 0 77%);
-  }
   .news__decr p {
     font-size: 13px;
   }
@@ -2221,6 +2270,13 @@ a h6 {
     flex-wrap: wrap;
     justify-content: center;
     justify-items: center;
+  }
+  .about_us__info_titile {
+    height: 42%;
+  }
+  .wine-block {
+    transform: translate(-65%);
+    width: 90%;
   }
 }
 @media (max-width: 850px) {
@@ -2341,6 +2397,13 @@ a h6 {
   .slick--prev {
     width: 78px;
   }
+  .wine-block_left {
+    left: 70%;
+  }
+  .wine-block {
+    width: 74%;
+    transform: translate(-80%);
+  }
 }
 @media (max-width: 476px) {
   .a {
@@ -2360,6 +2423,7 @@ a h6 {
   }
   .about__descr a {
     font-size: 15px;
+    left: 0;
   }
   .about__seemore {
     background-size: 22%;
@@ -2413,11 +2477,15 @@ a h6 {
     left: 75%;
     top: 28%;
   }
+  .new__Product {
+    top: -11%;
+  }
   .new__Product h4 {
     font-size: 19px;
   }
-  .new__Product {
-    font-size: 15px;
+  .new__Product p {
+    font-size: 13px;
+    width: 80%;
   }
   .new__Product_button {
     width: 24%;
@@ -2437,7 +2505,7 @@ a h6 {
     text-align: center;
   }
   .wine {
-    transform: translate(0, -139px);
+    transform: translate(0, -29px);
   }
   .wines__galere_itom {
     justify-content: flex-start;
@@ -2455,6 +2523,17 @@ a h6 {
     position: relative;
     top: -9px;
   }
+  .wine-block {
+    transform: translate(-72%);
+    width: 98%;
+    margin: -1px;
+  }
+  .wine-block img {
+    width: 35%;
+  }
+  .wine-info p {
+    font-size: 15px;
+  }
   .line_wine {
     left: 36%;
     top: -130px;
@@ -2463,17 +2542,6 @@ a h6 {
     left: 36%;
     top: -124px;
     font-size: 9px;
-  }
-  :lang(ge) .grape__img_raite {
-    transform: translate(0px, 0px);
-    width: 106%;
-  }
-  :lang(ge) .left_2 {
-    left: 0%;
-    width: 110%;
-  }
-  :lang(ge) .grape__img__2 {
-    width: 100%;
   }
   .left_1 {
     left: 50%;
@@ -2498,58 +2566,6 @@ a h6 {
     flex-wrap: wrap;
     justify-content: flex-end;
   }
-  .grapes__item {
-    display: flex;
-    transform: translate(0, 0);
-    height: 520px;
-    text-align: center;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: stretch;
-    justify-content: center;
-    flex-direction: row;
-  }
-  .grape {
-    position: inherit;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    height: 28%;
-  }
-  .grape img {
-    width: 50%;
-  }
-  .grape__descr {
-    font-size: 15px;
-    width: 100%;
-    display: flex;
-    position: relative;
-    left: 0px;
-    top: 10%;
-    align-content: center;
-    justify-content: center;
-    text-align: center;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-  .grape__item_1 {
-    transform: translate(0, 0);
-  }
-  .up {
-    display: block;
-    position: inherit;
-    top: 3%;
-    left: 0;
-  }
-  .grape__title {
-    margin-top: 0;
-    left: 0;
-    top: 0;
-    font-size: 12px;
-    position: relative;
-  }
   .about__img {
     height: max-content;
   }
@@ -2557,159 +2573,61 @@ a h6 {
     margin-top: 20px;
     height: 94%;
   }
-  .grape__img_up {
-    transform: translate(0%, 0%);
-    width: 108%;
-    top: 0%;
-    display: block;
+  h2 {
+    font-size: 33px;
   }
-  .grapes__descr {
-    padding-top: 40px;
-    margin-bottom: 40px;
+  .about_us__title p {
+    font-size: 16px;
   }
-  .grape__centr {
-    position: inherit;
-    left: 0px;
-    transform: translate(0, 0%);
-    top: -1%;
+  .about_us__text {
+    width: 80%;
+    font-size: 13px;
   }
-  .grape__descr__left {
-    width: 100%;
-    position: inherit;
-    margin-bottom: 11px;
+  .about_us__imfo {
+    justify-content: center;
+    left: 0;
   }
-  .grape__descr__up {
-    top: 10%;
-  }
-  .grape__img_left {
-    transform: translate(0, 0);
-    grid-column: 1;
-    width: 100%;
-    top: 26px;
-  }
-  .grape__img_raite {
-    position: initial;
-    transform: translate(0, 0);
+  .about_us__info_titile {
     width: 100%;
   }
-  .grape__title__left {
-    position: inherit;
-    top: 118px;
-    left: 25px;
+  .about_us__info_img img {
+    left: 50%;
+    width: 30%;
   }
-  .grape__title_up {
-    position: inherit;
-    left: 1px;
-  }
-  .grape__img__2 {
-    width: 109%;
-  }
-  .grape__img__2_up {
-    transform: translate(0%, 0);
-    top: 0%;
-  }
-  .grape__img__2_up_2 {
-    transform: translate(0%, 0);
-    top: 0;
-  }
-  .grape__img__2_left {
-    transform: translate(0%, 0);
-    top: 26px;
-    left: 0%;
-  }
-  .grape__img__2_raite {
-    transform: translate(0%, 0);
-    top: 6%;
-  }
-  .grape__img__2_raite_2 {
-    transform: translate(0%, 0);
-    top: 6%;
-  }
-  .grape__img__2_2 {
-    transform: translate(0%, 0);
-    top: 26px;
-    left: -8%;
-  }
-  .img__left {
-    transform: translate(0%, 0);
-  }
-  .up__height {
-    height: 209px;
-  }
-  .left_1 {
-    top: 26%;
-  }
-  .left_4 {
-    top: 26%;
-  }
-  .img {
-    width: 100%;
-    height: 19em;
-    position: relative;
-    background: url(../img/DSCF1365.jpg) 50% 86% no-repeat;
-    background-size: 256%;
-  }
-  .img_1 {
-    width: 100%;
-    height: 19em;
-    position: relative;
-    background: url(../img/7512.jpg) 50% 86% no-repeat;
-    background-size: 256%;
-  }
-  .img_2 {
-    width: 100%;
-    height: 19em;
-    position: relative;
-    background: url(../img/7645.jpg) 50% 86% no-repeat;
-    background-size: 256%;
-  }
-  .award__img img {
-    width: 50%;
+  .about_us__info__icons {
+    width: 40%;
   }
   .wine__descr {
     padding-top: 0px;
     top: -46px;
   }
+  .hover-right {
+    top: 87%;
+    right: 193px;
+    width: 25%;
+    height: 13%;
+    cursor: pointer;
+  }
+  .popup-right {
+    top: 89%;
+    right: 57%;
+  }
+  .hover-left {
+    top: 87%;
+    left: 56%;
+    width: 21%;
+    height: 13%;
+    cursor: pointer;
+  }
+  .popup-left {
+    top: 91%;
+    right: 0;
+  }
   .carousel_3 {
     padding: 1px 0;
   }
-  .new__img,
-  .new__img_1,
-  .new__img_2 {
-    background-size: 168%;
-    position: relative;
-    height: 625px;
-    top: -143px;
-    color: antiquewhite;
-  }
-  .new__title {
-    font-size: 8px;
-    width: 118px;
-    position: relative;
-    left: 22px;
-    top: 10px;
-  }
-  .new__wines_title {
-    left: 25px;
-  }
-  .new__img {
-    top: 0;
-    left: 0;
-    height: 100%;
-  }
-  .new__img_1 {
-    top: -24px;
-    left: 0;
-    height: 111%;
-  }
-  .new__img_2 {
-    background-size: 225%;
-    top: -103px;
-    left: 0;
-    height: 167%;
-  }
-  .new__wines_descr {
-    height: 210px;
+  .navbar a {
+    left: 6px;
   }
   .wine__item {
     position: relative;
@@ -2717,14 +2635,14 @@ a h6 {
   }
   .wine__img {
     width: 88%;
-    height: 199;
+    height: 199px;
     display: block;
   }
   .image-container {
     height: 0px;
   }
   .about__title {
-    transform: translate(0%, 15px);
+    transform: translate(0%, -44px);
     text-align: center;
     padding-top: 40px;
     margin-bottom: 40px;
@@ -2736,29 +2654,9 @@ a h6 {
   }
   .Gallery__dscr {
     text-align: center;
-    margin-bottom: 40px;
-    margin-top: 40px;
+    margin-bottom: 0px;
+    margin-top: 0px;
     padding-bottom: 40px;
-  }
-  .award__img__smol img {
-    width: 123%;
-  }
-  .grape {
-    position: relative;
-    display: flex;
-    margin: 0;
-  }
-  .grape__img {
-    position: relative;
-  }
-  .grape__img__2 {
-    width: 100%;
-  }
-  .grape__img img {
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, -28%);
-    width: 40%;
   }
   .gallery {
     align-content: center;
@@ -2781,6 +2679,9 @@ a h6 {
   }
   .bottom__email {
     left: -27px;
+  }
+  .slider__item, .slider__item_1, .slider__item_2 {
+    clip-path: polygon(0 0, 100% 0, 100% 65%, 83% 65%, 50% 70%, 17% 65%, 0 65%);
   }
 }
 @media (max-width: 361px) {
