@@ -12,11 +12,11 @@
 }
 
 /* Адаптация для экрана до 425px */
-@media (max-width: 425px) {
-    .slider__item {
-        clip-path: polygon(0 0, 100% 0, 100% 65%, 83% 65%, 50% 70%, 17% 65%, 0 65%);
-    }
-}
+// @media (max-width: 425px) {
+//     .slider__item {
+//         clip-path: polygon(0 0, 100% 0, 100% 65%, 83% 65%, 50% 70%, 17% 65%, 0 65%);
+//     }
+// }
 
 @media (max-width: 1640px) {
     #switch-lang {
@@ -544,7 +544,7 @@
     }
     .navbar {
         width: 125%;
-        color: #000;
+       
     }
 
     .hamburger {
@@ -564,7 +564,7 @@
     }
 
     .promo__img {
-        height: 41vh;
+        height: 30vh;
     }
 
     .about__centr {
@@ -595,7 +595,7 @@
 
     }
     .new__Product{
-        top: -11%;
+      justify-content: center;
     }
     .new__Product h4{
         font-size: 19px;
@@ -768,6 +768,10 @@
     .navbar a{
         left: 6px;
     }
+    .catalog-item{
+        width: 50%;
+        padding: 10px;
+    }
 
     .wine__item {
         position: relative;
@@ -831,11 +835,33 @@
     left: -27px;
 }
 .slider__item,.slider__item_1,.slider__item_2 {
-    clip-path: polygon(0 0, 100% 0, 100% 65%, 83% 65%, 50% 70%, 17% 65%, 0 65%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 83% 85%, 50% 90%, 17% 85%, 0 85%);
+}
+.menu_item{
+    width: 53%;
+    position: relative;
+    left: -11%;
+}
+.button_mini{
+    left: 61px;
+}
+.gallery__title{
+    top: 146px;
+    margin-bottom: 60px;
+}
+.news__decr{
+    margin: 150px 0;
+    top: 80px;
+}
+.wine-block_left{
+    margin: 50px 0;
+}
+.wine-block .wine-info p{
+    font-size: 13px;
 }
 }
 
-@media (max-width: 361px) {
+@media (max-width: 376px) {
     .new__img_1 {
         height: 124%;
 
@@ -860,7 +886,7 @@
 
     .header_logo_smol {
         position: relative;
-        left: 8%;
+        left: -31%;
     }
 
     .up__height {
@@ -873,5 +899,49 @@
       .wine__title{
         left: -76%;
       }
+      .new__Product_button {
+        width: 32%;
+      }
+      .about__seemore{
+        background-size: 31%;
+      }
+      .about__descr a {
+        height: 20%;
+      }
+      .about__titl{
+        transform: translate(0,0);
+      }
+
+      .Gallery__dscr {
+        text-align: center;
+        margin-bottom: -89px;
+        margin-top: -22px;
+        padding-bottom: 40px;
+    }
+    .wine__descr{
+        margin-bottom: 0;
+    }
+    .wine__img{
+        height: 176px;
+    }
+    .wine__title{
+        font-size: 10px;
+        top: -21px;
+        left: -97%;
+    }
+    .menu_item{
+        padding-right: 11px;
+    }
+    .about_us__title p{
+        font-size: 15px;
+    }
+    .about_us__text{
+        font-size: 11px;
+    }
+    .about_us__info_titile p{
+        position: relative;
+        left: 35px;
+        width: 80%;
+    }
 
 }
