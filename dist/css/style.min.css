@@ -2203,13 +2203,14 @@ a h6 {
     display: none;
   }
   .header_logo_smol {
-    width: 30%;
+    width: 12%;
     position: relative;
     z-index: 5;
+    top: -11px;
   }
   .list {
     display: block;
-    top: -15px;
+    top: 50px;
   }
   #myHeader.blurred {
     backdrop-filter: blur(0px);
@@ -2433,14 +2434,15 @@ a h6 {
     width: 125%;
   }
   .hamburger {
-    left: 50%;
+    left: 59%;
     right: 0;
-    top: 50%;
+    top: 26%;
     transform: translate(-50%, -50%);
     width: 100%;
   }
   .header_logo_smol {
-    left: -27%;
+    left: -29%;
+    width: 25%;
   }
   .list {
     margin-left: -28px;
@@ -2480,6 +2482,7 @@ a h6 {
   .new__Product p {
     font-size: 13px;
     width: 80%;
+    text-align: center;
   }
   .new__Product_button {
     width: 24%;
@@ -2705,6 +2708,9 @@ a h6 {
   }
 }
 @media (max-width: 376px) {
+  #header {
+    height: 86px;
+  }
   .new__img_1 {
     height: 124%;
   }
@@ -2725,7 +2731,8 @@ a h6 {
   }
   .header_logo_smol {
     position: relative;
-    left: -31%;
+    left: -17%;
+    width: 15%;
   }
   .up__height {
     height: 28%;

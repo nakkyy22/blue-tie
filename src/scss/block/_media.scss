@@ -246,15 +246,17 @@
     }
 
     .header_logo_smol {
-        width: 30%;
-        position: relative;
-        // left: 25%;
-        z-index: 5;
+
+            width: 12%;
+            position: relative;
+            z-index: 5;
+            top: -11px;
+        
     }
 
     .list {
         display: block;
-        top: -15px;
+        top: 50px;
     }
 
     #myHeader.blurred {
@@ -548,15 +550,16 @@
     }
 
     .hamburger {
-        left: 50%;
+        left: 59%;
         right: 0;
-        top: 50%;
+        top: 26%;
         transform: translate(-50%,-50%);
         width: 100%;
     }
 
     .header_logo_smol {
-        left: -27%;
+        left: -29%;
+        width: 25%;
     }
 
     .list {
@@ -604,6 +607,7 @@
         p{  
             font-size: 13px;
             width: 80%;
+            text-align: center;
         }
       
     }
@@ -862,6 +866,9 @@
 }
 
 @media (max-width: 376px) {
+    #header{
+        height: 86px;
+    }
     .new__img_1 {
         height: 124%;
 
@@ -886,7 +893,8 @@
 
     .header_logo_smol {
         position: relative;
-        left: -31%;
+        left: -17%;
+        width: 15%;
     }
 
     .up__height {
