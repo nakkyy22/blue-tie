@@ -951,5 +951,10 @@
         left: 35px;
         width: 80%;
     }
-
 }
+@media (max-width: 321px){
+    .about_us__text {
+        font-size: 9px;
+    }
+}
+
