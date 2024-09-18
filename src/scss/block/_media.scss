@@ -1,6 +1,10 @@
 @media (max-width: 991px) {
     .slider__item {
-        clip-path: polygon(0 0, 100% 0, 100% 73%, 81% 73%, 50% 78%, 19% 73%, 0 73%);
+        clip-path: polygon(0 0, 100% 0, 100% 60%, 83% 60%, 50% 72%, 17% 60%, 0 60%);
+    }
+    .new__Product {
+        width: 73%;
+        top: -47px;
     }
 }
 
@@ -49,7 +53,43 @@
         left: -10%;
     }
 }
+@media (max-width: 1200px){
+    .about_us__text{
+        font-size: 15px;
+    }
+}
+
+// @media (max-width: 1030px){
+//     .about{
+//         background-color: rgb(105, 78, 3);
+//       }
+// }
+// @media (max-width: 1029px){
+//     .about{
+//         background-color: rgb(248, 205, 86);
+//       }
+// }
+// @media (max-width: 1028px){
+//     .about{
+//         background-color: rgb(86, 248, 194);
+//       }
+// }
+// @media (max-width: 1027px){
+//     .about{
+//         background-color: rgb(4, 104, 71);
+//       }}
+//       @media (max-width: 1026px){
+//         .about{
+//             background-color: rgb(235, 15, 243);
+//           }}
+//           @media (max-width: 1025px){
+//             .about{
+//                 background-color: rgb(73, 37, 75);
+//               }}
 @media (max-width: 1024px){
+    // .about{
+    //   background-color: blue;
+    // }
     .carousel .slick-next{
         right: -29px;
         left: auto;
@@ -59,7 +99,11 @@
     background-size:100%;
 }
   .new__Product{
-    width: 70%;}
+    width: 70%;
+    justify-content: center;
+    left: 0;
+
+}
     .about_us__text{
         width: 55%;
     }
@@ -236,34 +280,25 @@
     .xs-visible {
         display: block;
     }
-
     .logo_smol {
         display: block;
     }
-
     .logo {
         display: none;
     }
-
     .header_logo_smol {
-
             width: 12%;
             position: relative;
             z-index: 5;
             top: -11px;
-        
     }
-
     .list {
         display: block;
         top: 50px;
     }
-
     #myHeader.blurred {
         backdrop-filter: blur(0px);
     }
-
-
     .new__wines_descr {
         height: 365px;
     }
@@ -272,7 +307,6 @@
             left: 11%;
         }
     }
-
     .about__descr {
         width: 50%;
         transform: translate(2%, 18px);
@@ -282,7 +316,6 @@
 .about_us__text{
     width: 68%;
 }
-
 .wine__title{
     top: -35px;
     font-size: 15px;
@@ -298,9 +331,6 @@
  .button_mini {
     left: 181px;
  }
-//  .promo__img {
-//     clip-path: polygon(0 0, 100% 0, 100% 77%, 64% 77%, 50% 100%, 33% 77%, 0 77%);
-//  }
  .news__decr {
     p{
         font-size: 13px;
@@ -315,18 +345,12 @@
  }
  .popup{
     width: 60%;
-    // img{
-    //     position: relative;
-    //     left: 15%;
-    // }
  }
  .popup__line{
     width: 33%;
-    // left: 15%;
     position: relative;
  }
  .popup_itom{
-    
     flex-wrap: wrap;
     justify-content: center;
     justify-items: center;
@@ -339,13 +363,12 @@
     width: 90%;
 }
 }
-
 @media (max-width: 850px){
     .hamburger{
         top: 37%;
     }
     .promo__img{
-        height: 381px;
+        height: 235px;
     }
     .grape__item_7{
         display: none;
@@ -366,9 +389,7 @@
     }
     .about__img{
         transform: translate(20%,0);
-    }
-
-   
+    }   
     .a{
     font-size: 16px;
     }
@@ -382,21 +403,19 @@
         transform: translate(0%,0);
     }
     .wine-block{
-        transform: translate(-70%);
+        margin-bottom: 60px;
+        img{
+           width: 30%;
+        }
     }
-    .wine-block .wine-info p {
-        width: 158%;
+    .wine-block .wine-info{
+        margin-top: 0; 
     }
     .wine-block_rights{
         img{
-            left: 29%;
+            left: 3%;
         }
     }
-    // a h6{
-    //     color: #000;
-
-    // }
-    
     .wines__galere_itom_titile{
         top: -163px;
         left: -45px;
@@ -404,23 +423,21 @@
     .bottom__maps {
         width: 131%;
      }
-    
+     #fullscreenGallery img{
+        width: 48%;
+        height: 65%;
+     }
 }
-
 @media (max-width: 769px) {
     .navbar {
         width: 674px;
     }
-
     .about__descr {
         transform: translate(4%, 18px);
     }
-
     .about__img img {
         width: 100%;
-
     }
-
     .wine__line {
         left: 19%;
     }
@@ -453,56 +470,31 @@
         margin: 0;
     }
     .img__left {
-    //  transform: translate(-4%, -50%); 
-    // top: 11%;
     transform: translate(0%, 0);
-    
     }
-
- 
     .up {
         display: block;
         position: relative;
-       
         top: 3%;
         left: 0;
     }
     .left_1 {
-        // transform: translate(31px, 0);
-        // top: -1%;
-        // transform: translate(0%, 0);
         top: 26%;
     }
-
-  
     .left_4 {
-        // top: -1%;
         top: 26%;
     }
-
-
-
-    // .wine__title p {
-    //     left: 21%;
-    // }
-
     .footer {
         width: 100%;
     }
-
     .bottom__contact {
         margin-left: 67px;
     }
-
-   
-      
     .social {
         left: 0%;
     }
-
     .slick--next,
     .slick--prev {
-
         width: 78px;
     }
     .wine-block_left{
@@ -515,6 +507,9 @@
 }
 
 @media (max-width: 476px) {
+    #header{
+        height: 90px;
+    }
     .a {
         font-size: 11px;
         width: 227px;
@@ -555,11 +550,12 @@
         top: 26%;
         transform: translate(-50%,-50%);
         width: 100%;
+        height: 86px;
     }
 
     .header_logo_smol {
         left: -29%;
-        width: 25%;
+        width: 14%;
     }
 
     .list {
@@ -827,7 +823,8 @@
         align-content: center;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
+        flex-direction: row;
+        width: 100%;
     }
     .bottom__maps {
         left: -15px;
@@ -862,6 +859,17 @@
 }
 .wine-block .wine-info p{
     font-size: 13px;
+}
+#fullscreenGallery{
+    top: 85px;
+}
+#fullscreenGallery img{
+    margin-top: 14%;
+    width: 98%;
+    height: 60%;
+}
+.gallery-arrow{
+    top: 43%;
 }
 }
 

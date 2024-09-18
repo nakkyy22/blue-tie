@@ -153,6 +153,7 @@ function initInnerCarousel() {
         adaptiveHeight: false,
         prevArrow: '<button type="button" class="slick---prev"><img src="images/left.svg"></button>',
         nextArrow: '<button type="button" class="slick---next"><img src="images/right.svg"></button>',
+        appendDots: $('.dots-container'),  // контейнер для точек третьего слайдера
         responsive: [
             {
                 breakpoint:1025,
@@ -173,6 +174,7 @@ function initInnerCarousel() {
         adaptiveHeight: true,
         prevArrow: '<button type="button" class="slick--prev"><img src="images/left1.svg"></button>',
         nextArrow: '<button type="button" class="slick--next"><img src="images/right1.svg"></button>',
+        appendDots: $('.dots-container-3'),  // контейнер для точек третьего слайдера
         responsive: [
             {
                 breakpoint:1025,

@@ -938,9 +938,10 @@ a h6 {
 }
 
 .Wines__title {
-  margin: 40px;
-  padding: 40px;
+  margin: 69px;
+  padding: 69px;
   position: relative;
+  top: 63px;
 }
 
 .wine-block {
@@ -1768,7 +1769,6 @@ a h6 {
   padding: 16px;
   position: relative;
   top: 200px;
-  left: -13px;
 }
 
 .fullscreen {
@@ -2012,7 +2012,11 @@ a h6 {
 
 @media (max-width: 991px) {
   .slider__item {
-    clip-path: polygon(0 0, 100% 0, 100% 73%, 81% 73%, 50% 78%, 19% 73%, 0 73%);
+    clip-path: polygon(0 0, 100% 0, 100% 60%, 83% 60%, 50% 72%, 17% 60%, 0 60%);
+  }
+  .new__Product {
+    width: 73%;
+    top: -47px;
   }
 }
 /* Адаптация для экрана до 768px */
@@ -2050,6 +2054,11 @@ a h6 {
     left: -10%;
   }
 }
+@media (max-width: 1200px) {
+  .about_us__text {
+    font-size: 15px;
+  }
+}
 @media (max-width: 1024px) {
   .carousel .slick-next {
     right: -29px;
@@ -2061,6 +2070,8 @@ a h6 {
   }
   .new__Product {
     width: 70%;
+    justify-content: center;
+    left: 0;
   }
   .about_us__text {
     width: 55%;
@@ -2280,7 +2291,7 @@ a h6 {
     top: 37%;
   }
   .promo__img {
-    height: 381px;
+    height: 235px;
   }
   .grape__item_7 {
     display: none;
@@ -2315,13 +2326,16 @@ a h6 {
     transform: translate(0%, 0);
   }
   .wine-block {
-    transform: translate(-70%);
+    margin-bottom: 60px;
   }
-  .wine-block .wine-info p {
-    width: 158%;
+  .wine-block img {
+    width: 30%;
+  }
+  .wine-block .wine-info {
+    margin-top: 0;
   }
   .wine-block_rights img {
-    left: 29%;
+    left: 3%;
   }
   .wines__galere_itom_titile {
     top: -163px;
@@ -2329,6 +2343,10 @@ a h6 {
   }
   .bottom__maps {
     width: 131%;
+  }
+  #fullscreenGallery img {
+    width: 48%;
+    height: 65%;
   }
 }
 @media (max-width: 769px) {
@@ -2402,6 +2420,9 @@ a h6 {
   }
 }
 @media (max-width: 476px) {
+  #header {
+    height: 90px;
+  }
   .a {
     font-size: 11px;
     width: 227px;
@@ -2439,10 +2460,11 @@ a h6 {
     top: 26%;
     transform: translate(-50%, -50%);
     width: 100%;
+    height: 86px;
   }
   .header_logo_smol {
     left: -29%;
-    width: 25%;
+    width: 14%;
   }
   .list {
     margin-left: -28px;
@@ -2670,7 +2692,8 @@ a h6 {
     align-content: center;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+    width: 100%;
   }
   .bottom__maps {
     left: -15px;
@@ -2705,6 +2728,17 @@ a h6 {
   }
   .wine-block .wine-info p {
     font-size: 13px;
+  }
+  #fullscreenGallery {
+    top: 85px;
+  }
+  #fullscreenGallery img {
+    margin-top: 14%;
+    width: 98%;
+    height: 60%;
+  }
+  .gallery-arrow {
+    top: 43%;
   }
 }
 @media (max-width: 376px) {
@@ -2786,5 +2820,10 @@ a h6 {
     position: relative;
     left: 35px;
     width: 80%;
+  }
+}
+@media (max-width: 321px) {
+  .about_us__text {
+    font-size: 9px;
   }
 }
